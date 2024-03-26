@@ -4,6 +4,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
     
 }
 
@@ -17,7 +18,8 @@ a{
 
 body{
     color: var(--text-color);
-    font-family: var(--font-family-base)
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
 }
 
 .visually-hidden{
@@ -42,4 +44,12 @@ body{
   :root {
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  :root{
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
   }
